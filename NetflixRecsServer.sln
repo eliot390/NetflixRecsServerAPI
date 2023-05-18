@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetflixRecsServer", "NetflixRecsServer\NetflixRecsServer.csproj", "{7E528CEC-D630-42BB-B0AB-C226EC52015F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BF0504DD-F0FE-4A7E-BB4F-B30A97CB516D} = {BF0504DD-F0FE-4A7E-BB4F-B30A97CB516D}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetflixModel", "NetflixModel\NetflixModel.csproj", "{BF0504DD-F0FE-4A7E-BB4F-B30A97CB516D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E528CEC-D630-42BB-B0AB-C226EC52015F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E528CEC-D630-42BB-B0AB-C226EC52015F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E528CEC-D630-42BB-B0AB-C226EC52015F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E528CEC-D630-42BB-B0AB-C226EC52015F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF0504DD-F0FE-4A7E-BB4F-B30A97CB516D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF0504DD-F0FE-4A7E-BB4F-B30A97CB516D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF0504DD-F0FE-4A7E-BB4F-B30A97CB516D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF0504DD-F0FE-4A7E-BB4F-B30A97CB516D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78A0418B-C1EB-4C46-BF77-E5165B4E4A42}
+	EndGlobalSection
+EndGlobal
